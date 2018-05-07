@@ -6,7 +6,7 @@
 
 ### From GitHub:
 ````
-sudo docker build -t monodevelop https://github.com/logicethos/monodevelop
+sudo docker build -t monodevelop https://github.com/logicethos/monodevelop.git
 sudo docker run -v /tmp:/tmp -v /home/$USER:/HOME monodevelop $DISPLAY $USER
 ````
 
