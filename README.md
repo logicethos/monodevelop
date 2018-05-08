@@ -1,6 +1,6 @@
-# Monodevelop
+# Monodevelop Docker Container
 
-## Build from source and run
+## Build from source and run on Linux Desktop
 
 ----
 
