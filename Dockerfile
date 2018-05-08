@@ -7,7 +7,7 @@ RUN echo "deb http://download.mono-project.com/repo/ubuntu vs-xenial main" | tee
 
 RUN apt-get update \
     && apt-get -y install mono-devel \           
-    && apt-get -y install less joe monodevelop monodevelop-nunit
+    && apt-get -y install less joe git monodevelop monodevelop-nunit monodevelop-versioncontrol
 
 RUN apt-get clean
 RUN rm -rf /var/lib/apt/lists/*
