@@ -17,6 +17,8 @@ if [ $# -eq 2 ]; then
 	#fi
 	ln -s /HOME /home/$2
 	chown "$2:$2" "/home/$2"
+	cd "/home/$2"
+	HOME="/home/$2"
 	DISPLAY="$1" su "$2" -c "$executable"
 else
 	DISPLAY="$1" $executable
